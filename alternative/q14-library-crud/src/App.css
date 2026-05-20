@@ -1,0 +1,125 @@
+.app {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle at top, #f3f7ff, #e9edf4 50%, #dfe7f3 100%);
+  padding: 32px 16px;
+  color: #0f172a;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  width: min(700px, 100%);
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 32px;
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.12);
+}
+
+.title h1 {
+  margin: 0 0 8px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.title p {
+  margin: 0 0 24px;
+  color: #475569;
+  text-align: center;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.form input {
+  border: 1px solid #cbd5f5;
+  border-radius: 12px;
+  padding: 12px 14px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.form button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.form button:hover {
+  background-color: #2563eb;
+}
+
+.book-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.book-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.book-list li:last-child {
+  border-bottom: none;
+}
+
+.book-title {
+  font-weight: 600;
+}
+
+.book-author {
+  color: #64748b;
+  margin-left: 8px;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.actions button {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.actions button:first-child {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.actions button:first-child:hover {
+  background-color: #d97706;
+}
+
+.actions button:last-child {
+  background-color: #ef4444;
+  color: white;
+}
+
+.actions button:last-child:hover {
+  background-color: #dc2626;
+}
