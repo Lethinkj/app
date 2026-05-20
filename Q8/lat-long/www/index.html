@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lat/Long Viewer</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        background: #f1f5f9;
+      }
+      .card {
+        max-width: 420px;
+        background: #fff;
+        padding: 16px;
+        border-radius: 10px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+        margin: 0 auto;
+      }
+      button {
+        background: #0f172a;
+        color: #fff;
+        border: none;
+        padding: 10px 14px;
+        border-radius: 8px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h2>Latitude / Longitude</h2>
+      <div id="coords">No data yet.</div>
+      <button id="startBtn">Start Watching</button>
+      <button id="stopBtn">Stop</button>
+    </div>
+
+    <script>
+      const coords = document.getElementById("coords");
+      let watchId = null;
+
+      document.getElementById("startBtn").addEventListener("click", () => {
+        if (!navigator.geolocation) {
+          coords.textContent = "Geolocation not supported.";
+          return;
+        }
+        if (watchId !== null) return;
+        watchId = navigator.geolocation.watchPosition(
+          (pos) => {
+            const { latitude, longitude } = pos.coords;
+            coords.textContent =
+              "Latitude: " + latitude.toFixed(6) + " | Longitude: " + longitude.toFixed(6);
+          },
+          (err) => {
+            coords.textContent = "Error: " + err.message;
+          },
+          { enableHighAccuracy: true }
+        );
+      });
+
+      document.getElementById("stopBtn").addEventListener("click", () => {
+        if (watchId !== null) {
+          navigator.geolocation.clearWatch(watchId);
+          watchId = null;
+        }
+      });
+    </script>
+  </body>
+</html>

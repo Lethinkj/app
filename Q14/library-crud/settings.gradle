@@ -1,0 +1,2 @@
+rootProject.name = "LibraryCrud"
+include ':app'

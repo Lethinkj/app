@@ -1,0 +1,450 @@
+1. Develop a cross-platform application using React Native for calculating Body Mass
+Index (BMI).
+Aim/Principle/Apparatus
+required/Procedure
+
+Tabulation/Circuit/
+
+20
+
+30
+
+Program/Drawing
+
+Calculation
+& Results
+
+Viva-Voce
+
+Record
+
+Total
+
+30
+
+10
+
+10
+
+100
+
+2. Design and develop a cross-platform To-Do Management application using React Native
+for managing daily tasks.
+Aim/Principle/Apparatus
+required/Procedure
+
+Tabulation/Circuit/
+
+20
+
+30
+
+Program/Drawing
+
+Calculation
+& Results
+
+Viva-Voce
+
+Record
+
+Total
+
+30
+
+10
+
+10
+
+100
+
+3. Develop a React Native application for adding, updating, deleting, and viewing day-today tasks.
+Aim/Principle/Apparat
+us required/Procedure
+
+Tabulation/Circuit/
+
+20
+
+30
+
+Program/Drawing
+
+Calculation
+& Results
+
+Viva-Voce
+
+Record
+
+Total
+
+30
+
+10
+
+10
+
+100
+
+4. Design an Android application using Apache Cordova for a User Login Screen with
+username and password fields.
+Aim/Principle/Apparatus
+required/Procedure
+
+Tabulation/Circuit/
+
+20
+
+30
+
+Program/Drawing
+
+Calculation
+& Results
+
+Viva-Voce
+
+Record
+
+Total
+
+30
+
+10
+
+10
+
+100
+
+5. Develop a Cordova application containing Submit and Reset buttons along with proper
+layout managers.
+Aim/Principle/Apparatus
+required/Procedure
+
+Tabulation/Circuit/
+
+20
+
+30
+
+Program/Drawing
+
+Calculation
+& Results
+
+Viva-Voce
+
+Record
+
+Total
+
+30
+
+10
+
+10
+
+100
+
+6. Design a Cordova-based Android application with a header image, labels, and login form
+controls
+Aim/Principle/Apparatus
+required/Procedure
+
+Tabulation/Circuit/
+
+20
+
+30
+
+Program/Drawing
+
+Calculation
+& Results
+
+Viva-Voce
+
+Record
+
+Total
+
+30
+
+10
+
+10
+
+100
+
+7. Develop an Android application using Apache Cordova to find and display the current
+geographical location of the user.
+Aim/Principle/Apparatus
+required/Procedure
+
+Tabulation/Circuit/
+
+20
+
+30
+
+Program/Drawing
+
+Calculation
+& Results
+
+Viva-Voce
+
+Record
+
+Total
+
+30
+
+10
+
+10
+
+100
+
+8. Design and develop a Cordova application using Geolocation API to display latitude and
+longitude coordinates.
+Aim/Principle/Apparatus
+required/Procedure
+
+Tabulation/Circuit/
+
+20
+
+30
+
+Program/Drawing
+
+Calculation
+& Results
+
+Viva-Voce
+
+Record
+
+Total
+
+30
+
+10
+
+10
+
+100
+
+9. Write a Java-based Android application for a Simple Library Management System using
+SQLite Database.
+Aim/Principle/Apparatus
+required/Procedure
+
+Tabulation/Circuit/
+
+20
+
+30
+
+Program/Drawing
+
+Calculation
+& Results
+
+Viva-Voce
+
+Record
+
+Total
+
+30
+
+10
+
+10
+
+100
+
+10. Develop an Android application using Java to store and retrieve library book details from
+a database.
+Aim/Principle/Apparatus
+required/Procedure
+
+Tabulation/Circuit/
+
+20
+
+30
+
+Program/Drawing
+
+Calculation
+& Results
+
+Viva-Voce
+
+Record
+
+Total
+
+30
+
+10
+
+10
+
+100
+
+11. Create an Android application using Java for displaying available books, issued books,
+and reserved books.
+Aim/Principle/Apparatus
+required/Procedure
+
+Tabulation/Circuit/
+
+20
+
+30
+
+Program/Drawing
+
+Calculation
+& Results
+
+Viva-Voce
+
+Record
+
+Total
+
+30
+
+10
+
+10
+
+100
+
+12. Develop an Android application using Java and Database connectivity for book lending
+management.
+Aim/Principle/Apparatus
+required/Procedure
+
+Tabulation/Circuit/
+
+20
+
+30
+
+Program/Drawing
+
+Calculation
+& Results
+
+Viva-Voce
+
+Record
+
+Total
+
+30
+
+10
+
+10
+
+100
+
+13. Write a Java Android application for maintaining student and library records using
+SQLite Database.
+Aim/Principle/Apparatus
+required/Procedure
+
+Tabulation/Circuit/
+
+20
+
+30
+
+Program/Drawing
+
+Calculation
+& Results
+
+Viva-Voce
+
+Record
+
+Total
+
+30
+
+10
+
+10
+
+100
+
+14. Develop an Android application using Java to perform CRUD (Create, Read, Update,
+Delete) operations on library data.
+Aim/Principle/Apparatus
+required/Procedure
+
+Tabulation/Circuit/
+
+20
+
+30
+
+Program/Drawing
+
+Calculation
+& Results
+
+Viva-Voce
+
+Record
+
+Total
+
+30
+
+10
+
+10
+
+100
+
+15. Design and implement a React Native BMI Calculator application with height and weight
+input validation.
+Aim/Principle/Apparatus
+required/Procedure
+
+Tabulation/Circuit/
+
+20
+
+30
+
+Program/Drawing
+
+Calculation
+& Results
+
+Viva-Voce
+
+Record
+
+Total
+
+30
+
+10
+
+10
+
+100
+
+

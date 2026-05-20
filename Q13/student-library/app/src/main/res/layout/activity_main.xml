@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+      android:id="@+id/studentName"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Student Name" />
+
+    <EditText
+      android:id="@+id/studentDept"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Department" />
+
+    <Button
+      android:id="@+id/addStudentBtn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Add Student" />
+
+    <EditText
+      android:id="@+id/bookTitle"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Book Title" />
+
+    <EditText
+      android:id="@+id/bookAuthor"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Book Author" />
+
+    <Button
+      android:id="@+id/addBookBtn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Add Book" />
+
+    <Button
+      android:id="@+id/viewBtn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="View All" />
+
+    <TextView
+      android:id="@+id/output"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingTop="12dp" />
+  </LinearLayout>
+</ScrollView>

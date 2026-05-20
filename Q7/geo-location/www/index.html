@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Current Location</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background: #f8fafc;
+      }
+      .card {
+        background: #fff;
+        border-radius: 10px;
+        padding: 16px;
+        max-width: 420px;
+        margin: 0 auto;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+      }
+      button {
+        margin-top: 12px;
+        background: #1f2937;
+        color: #fff;
+        border: none;
+        padding: 10px 14px;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h2>Find My Location</h2>
+      <p id="status">Click the button to get location.</p>
+      <button id="locBtn">Get Location</button>
+    </div>
+
+    <script>
+      const status = document.getElementById("status");
+
+      document.getElementById("locBtn").addEventListener("click", () => {
+        if (!navigator.geolocation) {
+          status.textContent = "Geolocation not supported.";
+          return;
+        }
+
+        status.textContent = "Fetching location...";
+        navigator.geolocation.getCurrentPosition(
+          (pos) => {
+            const { latitude, longitude, accuracy } = pos.coords;
+            status.textContent =
+              "Lat: " +
+              latitude.toFixed(6) +
+              ", Lng: " +
+              longitude.toFixed(6) +
+              ", Accuracy: " +
+              Math.round(accuracy) +
+              "m";
+          },
+          (err) => {
+            status.textContent = "Error: " + err.message;
+          },
+          { enableHighAccuracy: true, timeout: 10000 }
+        );
+      });
+    </script>
+  </body>
+</html>

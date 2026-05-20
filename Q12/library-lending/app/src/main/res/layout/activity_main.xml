@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:padding="16dp">
+
+  <EditText
+    android:id="@+id/idInput"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Book ID" />
+
+  <EditText
+    android:id="@+id/borrowerInput"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Borrower Name" />
+
+  <Button
+    android:id="@+id/issueBtn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Issue" />
+
+  <Button
+    android:id="@+id/returnBtn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Return" />
+
+  <Button
+    android:id="@+id/viewBtn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="View All" />
+
+  <TextView
+    android:id="@+id/output"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="12dp" />
+</LinearLayout>
